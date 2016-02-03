@@ -1,0 +1,98 @@
+/*propidad del body*/
+.container{
+	width: 700px;
+	margin: auto;		
+}
+
+/*Propiedades del menu*/
+#menu{
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#menu ul {
+	display:inline-block;
+	border-right: 1px solid gray;  
+	padding-right: 15px;
+	margin-right: 3px;
+}
+
+/*Foto*/
+
+#grupal img{
+	height:500px;		
+	width: 700px;
+}
+
+/*Introduccion*/
+
+#parra{
+	border: 0;
+	border-top: 3px solid black; 
+	border-bottom: 1px solid #333;  
+	width: 100px;
+	float: left;
+	position: absolute;
+}
+
+#parrafo p{
+	height: 100px;				
+	width: 440px;
+	font-family: serif;
+	text-align: center;
+	margin-top:50px;
+	margin-left: 100px;
+}
+
+hr {
+	border: 0;
+	border-top: 3px solid gray; 
+	width: 100px;
+	float: left;
+	position: absolute;
+}
+
+/*Propiedades de los perfiles*/
+
+h3{
+	margin-top: 50px;
+}
+
+.profile
+{
+	height: 200px;
+	width: 200px;
+	margin-right:-90px;
+	margin-bottom: 20px;
+	filter: brightness(50%);
+	-webkit-filter: brightness(50%); /*Filtro de opacidad*/
+	-moz-filter: brightness(50%);
+}
+
+#lprofile{
+	border: 0;
+	border-top: 3px solid black; 
+	border-bottom: 1px solid #333;  
+	width: 100px;
+	float: left;
+	position: absolute;
+}
+.cajacoders{
+	position: relative;  
+	top: 40px;
+	bottom: 40px;
+}
+
+span{
+	position: relative;   
+	top:-30px;
+	left:-30px;
+	bottom:0px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: monospace;
+}
