@@ -1,0 +1,74 @@
+/*propiedad del body*/
+.container{
+	width: 700px;
+	margin: auto;
+	border: 5px solid gray;
+	padding:30px;	
+}
+
+/*Foto de presentacion*/
+
+#perfil{
+	padding-left: 230px;
+	height: 200px;
+	width: 200px;
+
+}
+.profile{
+	height: 200px;
+	width: 200px;
+	border-radius: 150px;
+	float:center;
+	position: relative;
+}
+
+h1{
+	text-align: center;
+}
+
+/*Perfil feliz*/
+p{
+	text-align: center;
+	font-family: serif;	
+	font-size: 18px;
+	width: 700px;
+
+}
+/*Habilidades*/
+#caja1{
+	background-color: gray;
+	color:white;
+	padding: 20px;
+	width: 600px;
+	margin-bottom: 30px;
+}
+#caja2{
+	background-color: gray;
+	color:white;
+	padding: 20px;
+	width: 500px;
+	margin-bottom: 30px;
+}
+#caja3{
+	background-color: gray;
+	color:white;
+	padding: 20px;
+	width: 300px;
+	margin-bottom: 30px;
+}
+
+/*Portafolio*/
+
+.portafolio{
+	position: relative;  
+	top: 40px;
+	bottom: 40px;
+}
+
+.porta
+{
+	height: 200px;
+	width: 200px;
+	margin-right: 20px;
+	margin-bottom: 50px;
+}
