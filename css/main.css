@@ -1,4 +1,4 @@
-/*propidad del body*/
+/*propiedad del body*/
 .container{
 	width: 700px;
 	margin: auto;		
@@ -30,31 +30,24 @@
 
 /*Introduccion*/
 
-#parra{
-	border: 0;
-	border-top: 3px solid black; 
-	border-bottom: 1px solid #333;  
-	width: 100px;
-	float: left;
-	position: absolute;
-}
 
-#parrafo p{
-	height: 100px;				
-	width: 440px;
-	font-family: serif;
+p{
 	text-align: center;
-	margin-top:50px;
-	margin-left: 100px;
+	font-family: serif;	
+	font-size: 18px;
+	width:500px;
+	height: 100px;
+	padding-left: 100px;
+
 }
+/*Propiedades de lineas*/
 
 hr {
 	border: 0;
 	border-top: 3px solid gray; 
 	width: 100px;
-	float: left;
-	position: absolute;
-}
+	opacity:0.6;
+ }
 
 /*Propiedades de los perfiles*/
 
@@ -67,7 +60,7 @@ h3{
 	height: 200px;
 	width: 200px;
 	margin-right:-90px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 	filter: brightness(50%);
 	-webkit-filter: brightness(50%); /*Filtro de opacidad*/
 	-moz-filter: brightness(50%);
